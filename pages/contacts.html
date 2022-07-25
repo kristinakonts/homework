@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contacts</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <ul class="navbar-list">
+      <li><a class="navbar-link" href="../index.html">Главная</a></li>
+      <li><a class="navbar-link" href="articles.html">Статьи</a></li>
+      <li><a class="navbar-link" href="catalog.html">Каталог</a></li>
+      <li><a class="navbar-link" href="contacts.html">Контакты</a></li>
+      <li><a class="navbar-link" href="gallery.html">Галерея</a></li>
+      <li><a class="navbar-link" href="page-nav.html">Навигация</a></li>
+      <li><a class="navbar-link" href="registration.html">Регистрация</a></li>
+    </ul>
+  </header>
+
+  <div class="bg-image"></div>
+  <div class="container">
+    <h1 class="container-title">Контакты</h1>
+    <p class="container-title address">Адрес: проспект Слобожанський, 31Д, Дніпро, Дніпропетровська область, 49000</p>
+
+    <iframe class="container-iframe"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3379.575093883046!2d35.06972687137593!3d48.49654755727165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d9587980e92ba3%3A0x68f6a68f5ca82dbc!2z0KLQpiDCq9Cd0LDRiNCwINCf0YDQsNCy0LTQsMK7!5e0!3m2!1sru!2sua!4v1657300162206!5m2!1sru!2sua"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <form class="container-form" action="https://tests.fomenko.top/echo/index.php" method="get">
+      <fieldset class="container-form__fieldset">
+        <legend>Обратная связь</legend>
+
+        <div class="container-form__group">
+          <label for="name">Имя</label>
+          <input class="container-form__input capitalized" id="name" type="text" name="name" placeholder="Имя">
+        </div>
+
+        <div class="container-form__group">
+          <label for="tel">Телефон</label>
+          <input class="container-form__input" id="tel" type="tel" name="tel" placeholder="Телефон">
+        </div>
+
+        <div class="container-form__group">
+          <label for="email">Email</label>
+          <input class="container-form__input" id="email" type="email" name="email" placeholder="Email">
+        </div>
+      </fieldset>
+
+      <fieldset class="container-form__fieldset">
+
+        <div class="container-form__group">
+          <label for="question">Вопрос</label>
+          <textarea class="container-form__input textarea" id="question" name="txt"
+            placeholder="Напишите вопрос..."></textarea>
+        </div>
+
+        <div>
+          <button class="container-form__btn" type="submit">Отправить форму</button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-text">&copy; KrisK</div>
+  </footer>
+</body>
+
+</html>
