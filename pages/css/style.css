@@ -23,13 +23,15 @@ body {
   background-size: 250px, cover;
 }
 
-.welcome-image{
+.welcome-image {
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-left: 280px;
 }
-.welcome-image:hover{
-transform: rotate(20deg);
+
+.welcome-image:hover {
+  transform: rotate(20deg);
+  transform: scale(1.5);
 }
 
 .header {
