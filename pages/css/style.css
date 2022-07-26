@@ -28,6 +28,9 @@ body {
   margin-top: 50px;
   margin-left: 280px;
 }
+.welcome-image:hover{
+transform: rotate(20deg);
+}
 
 .header {
   position: fixed;
