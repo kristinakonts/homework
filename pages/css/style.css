@@ -37,6 +37,7 @@ body {
 .container-header{
   max-width: 1280px;
   padding: 20px 0;
+  margin: 0;
   flex-wrap: wrap;
 }
 
@@ -58,7 +59,7 @@ body {
 }
 
 .container-content{
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
   padding: 20px;
   text-align: justify;
