@@ -34,6 +34,10 @@ body {
   transform: scale(1.5);
 }
 
+.container-header{
+  max-width: 1280px;
+  padding: 20px 0;
+}
 .header {
   position: fixed;
   top: 0;
@@ -47,7 +51,10 @@ body {
 
 .container {
   max-width: 1280px;
-  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
   padding: 20px 0;
 }
 
@@ -71,6 +78,7 @@ body {
   justify-content: center;
   gap: 5px;
   margin: 10px;
+  flex-wrap: wrap;
 }
 
 .navbar-link {
@@ -278,5 +286,8 @@ body {
 }
 
 .footer-text {
-  padding: 10px;
+  padding: 20px;
+  max-width: 1280px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
