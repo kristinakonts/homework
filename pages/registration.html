@@ -28,94 +28,96 @@
 
   <div class="bg-image"></div>
   <div class="container">
-    <h1 class="container-title">Регистрация</h1>
+    <div class="container-content">
+      <h1 class="container-title">Регистрация</h1>
 
-    <form class="container-form" action="https://tests.fomenko.top/echo/index.php" method="get">
-      <fieldset class="container-form__fieldset">
+      <form class="container-form" action="https://tests.fomenko.top/echo/index.php" method="get">
+        <fieldset class="container-form__fieldset">
 
-        <div class="container-form__group">
-          <label for="surname">Фамилия</label>
-          <input class="container-form__input capitalized" id="surname" type="text" name="surname"
-            placeholder="Ваша фамилия">
-        </div>
+          <div class="container-form__group">
+            <label for="surname">Фамилия</label>
+            <input class="container-form__input capitalized" id="surname" type="text" name="surname"
+              placeholder="Ваша фамилия">
+          </div>
 
-        <div class="container-form__group"></div>
-        <label for="name">Имя</label>
-        <input class="container-form__input capitalized" id="name" type="text" name="name" placeholder="Ваше имя">
+          <div class="container-form__group"></div>
+          <label for="name">Имя</label>
+          <input class="container-form__input capitalized" id="name" type="text" name="name" placeholder="Ваше имя">
 
-        <div class="container-form__group">
-          <label for="file">Добавьте фотографию</label>
-          <input class="container-form__input" id="file" type="file" name="file">
-        </div>
+          <div class="container-form__group">
+            <label for="file">Добавьте фотографию</label>
+            <input class="container-form__input--foto" id="file" type="file" name="file">
+          </div>
 
-        <div class="container-form__group">
-          <label for="email">Email</label>
-          <input class="container-form__input" id="email" type="email" name="email" placeholder="Ваш email">
-        </div>
+          <div class="container-form__group">
+            <label for="email">Email</label>
+            <input class="container-form__input" id="email" type="email" name="email" placeholder="Ваш email">
+          </div>
 
-        <div class="container-form__group">
-          <label for="password">Пароль</label>
-          <input class="container-form__input" id="password" type="password" name="password" placeholder="Пароль">
-        </div>
+          <div class="container-form__group">
+            <label for="password">Пароль</label>
+            <input class="container-form__input" id="password" type="password" name="password" placeholder="Пароль">
+          </div>
 
-        <div class="container-form__group"></div>
-        <label for="website">Адрес сайта</label>
-        <input class="container-form__input" id="website" type="text" name="website" value="mysite.name">
+          <div class="container-form__group"></div>
+          <label for="website">Адрес сайта</label>
+          <input class="container-form__input" id="website" type="text" name="website" value="mysite.name">
 
-      </fieldset>
+        </fieldset>
 
-      <fieldset class="container-form__fieldset">
-        <legend>Пол и дата рождения</legend>
+        <fieldset class="container-form__fieldset">
+          <legend>Пол и дата рождения</legend>
 
-        <div class="container-form__group--sm">
-          <input id="male" name="gender" type="radio" value="male">
-          <label for="male">Мужской</label>
-        </div>
+          <div class="container-form__group--sm">
+            <input id="male" name="gender" type="radio" value="male">
+            <label for="male">Мужской</label>
+          </div>
 
-        <div class="container-form__group--sm">
-          <input id="female" name="gender" type="radio" value="female">
-          <label for="female">Женский</label>
-        </div>
+          <div class="container-form__group--sm">
+            <input id="female" name="gender" type="radio" value="female">
+            <label for="female">Женский</label>
+          </div>
 
-        <div class="container-form__group">
-          <label for="birthday">Веберите дату рождения</label>
-          <input class="container-form__input" id="birthday" type="date" name="birthday">
-        </div>
-      </fieldset>
+          <div class="container-form__group">
+            <label for="birthday">Веберите дату рождения</label>
+            <input class="container-form__input" id="birthday" type="date" name="birthday">
+          </div>
+        </fieldset>
 
-      <fieldset class="container-form__fieldset">
-        <legend>Выберите предпочитаемую кухню</legend>
-        <div class="container-form__group--sm">
-          <input checked id="kitchen-ua" name="kitchen" type="checkbox" value="ua">
-          <label for="kitchen-ua">Украинская</label>
-        </div>
-        <div class="container-form__group--sm">
-          <input id="jp" name="kitchen" type="checkbox" value="jp">
-          <label for="jp">Японская</label>
-        </div>
-        <div class="container-form__group--sm">
-          <input id="us" name="kitchen" type="checkbox" value="us">
-          <label for="us">Американская</label>
-        </div>
-      </fieldset>
+        <fieldset class="container-form__fieldset">
+          <legend>Выберите предпочитаемую кухню</legend>
+          <div class="container-form__group--sm">
+            <input checked id="kitchen-ua" name="kitchen" type="checkbox" value="ua">
+            <label for="kitchen-ua">Украинская</label>
+          </div>
+          <div class="container-form__group--sm">
+            <input id="jp" name="kitchen" type="checkbox" value="jp">
+            <label for="jp">Японская</label>
+          </div>
+          <div class="container-form__group--sm">
+            <input id="us" name="kitchen" type="checkbox" value="us">
+            <label for="us">Американская</label>
+          </div>
+        </fieldset>
 
-      <fieldset class="container-form__fieldset">
-        <div class="container-form__group">
-          <label for="about">О себе</label>
-          <textarea class="container-form__input textarea" id="about" name="txt"
-            placeholder="Напишите о себе..."></textarea>
-        </div>
-      </fieldset>
+        <fieldset class="container-form__fieldset">
+          <div class="container-form__group">
+            <label for="about">О себе</label>
+            <textarea class="container-form__input textarea" id="about" name="txt"
+              placeholder="Напишите о себе..."></textarea>
+          </div>
+        </fieldset>
 
-      <fieldset class="container-form__fieldset">
-        <legend>Завершите регистраию</legend>
+        <fieldset class="container-form__fieldset">
+          <legend>Завершите регистраию</legend>
 
-        <div class="container-form__btn">
-          <button class="container-form__btn" type="submit">Зарегистрироваться</button>
-          <button class="container-form__btn" type="reset">Отчистить форму</button>
-        </div>
-      </fieldset>
-    </form>
+          <div class="container-form__btn">
+            <button class="container-form__btn" type="submit">Зарегистрироваться</button>
+            <button class="container-form__btn" type="reset">Отчистить форму</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
   </div>
 
   <footer class="footer">
